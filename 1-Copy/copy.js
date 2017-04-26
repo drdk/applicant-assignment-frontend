@@ -1,6 +1,3 @@
-In one of the administration modules of the DR TV Program Schedule System, you need a method to create a copy of the program card object below:
-
-```
 var DR = {
 	TV: {}
 };
@@ -16,25 +13,22 @@ var programCard = {
 	cleanName: new RegExp(/[^a-z0-9]+/gi),
 	details: {
 		description: "Det er meget virkeligt blod, der drypper på scenen i landsbyens amatørteater. En opførelse af Amadeus slutter dramatisk med, at Salieri skærer halsen over på sig selv. Men nogen har udskiftet teaterkniven med en rigtig, så Barnaby hvirvles ind i et nyt, kompliceret mordmysterium.",
-		durationMiliseconds: "1800000"
+		durationMiliseconds: 1800000
 	}
 };
 
 /**
- * Method for any copying object
+ * Method for copying object
  *
  * @method copyCard
  * @public
  */
 DR.TV.copyCard = function(card) {
-	// Return copied card.
+	// Return a copy of the card.
 };
 
 var clonedProgramCard = DR.TV.copyCard(programCard);
 
-console.log(clonedProgramCard !== programCard); // Do not edit
-```
-
-**Assignment:** Write the copyCard method to copy the programCard object. Last console log should return true.
-
-*Assignment Files:* ```copy.js```
+// Basic test of functionality
+console.log(clonedProgramCard !== programCard); // Must return true.
+console.log(clonedProgramCard.details !== programCard.details); // Must return true.

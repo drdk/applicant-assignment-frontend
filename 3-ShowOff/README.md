@@ -1,7 +1,7 @@
 The TV department wants a prototype of how shows that are expiring soon can be presented.
 
 The API endpoint documentation can be found here:
-	http://www.dr.dk/mu-online/Help/1.3/Api/GET-api-1.3-list-view-lastchance_limit_offset_channel
+	http://www.dr.dk/mu-online/Help/1.3/Api/GET-api-apiVersion-list-view-lastchance_limit_offset_channel
 
 **Assignment:** Create a simple single page application reading the API endpoint above using front-end technologies and/or Node.js.
 
