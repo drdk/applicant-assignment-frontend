@@ -1,7 +1,7 @@
 You and a fellow frontend developer are making a map application together. The application allows calculations based on coordinates. You've both agreed that the following functionality is a requirement:
 
 ```
-new Coordinate( new Coordinate(30, 90) + new Coordinate(70, 150) ).toString() === '{100,240}';.
+new Coordinate( new Coordinate(30, 90) + new Coordinate(70, 150) ).toString() === '{100,240}';
 
 new Coordinate( new Coordinate(250, 10) + new Coordinate(60, 430) + new Coordinate(80, 0) ).toString() === '{390,440}';
 ```
