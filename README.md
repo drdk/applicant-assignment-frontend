@@ -1,6 +1,6 @@
 # Front-end Applicant Assignments
 
-This repository contains 3 assignments for you to complete before your interview at DR. All assignments should not take more than a few hours to complete, but feel free to spend as much time as you feel is necessary to showcase your talents. There are no definitively "correct" solutions. *Also remember that this is not mandatory. If you've got some other code you would rather talk about (e.g. on Github) then simply send us a link to that instead.*
+This repository contains 3 assignments for you to complete before your interview at DR. All assignments should not take more than a few hours to complete, but feel free to spend as much time as you feel is necessary to showcase your talents. There are no definitively "correct" solutions. If you have other code you would also like to show and talk about (e.g. on Github) then simply send us a link to that as well.
 
 | Assignment
 |:-----------------
